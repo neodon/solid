@@ -10,9 +10,11 @@
   },
   "main": "lib/solid.js",
   "module": "dist/solid.js",
+  "types": "types/index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "build": "rollup -c",
+    "prebuild": "rimraf dist/* lib/* types/*",
+    "build": "rollup -c && tsc",
     "prepublishOnly": "npm run build",
     "test": "npm run build && jest --coverage"
   },
@@ -32,6 +34,7 @@
     "eslint-plugin-prettier": "^3.0.0",
     "jest": "~24.7.1",
     "prettier": "^1.17.0",
+    "rimraf": "^2.6.3",
     "rollup": "^1.10.0",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-node-resolve": "^4.1.0",
