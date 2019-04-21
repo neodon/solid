@@ -1,0 +1,46 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "prettier.eslintIntegration": true,
+    "prettier.requireConfig": true,
+    "javascript.format.enable": false,
+    "json.format.enable": false,
+    "files.autoSave": "onFocusChange",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "typescript.format.enable": false,
+    "eslint.autoFixOnSave": false,
+    "eslint.validate": [
+      "javascript",
+      {
+        "language": "typescript",
+        "autoFix": false
+      }
+    ],
+    "editor.formatOnSave": false
+  },
+  "extensions": {
+    "recommendations": [
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "coenraads.bracket-pair-colorizer",
+      "davidanson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "drknoxy.eslint-disable-snippets",
+      "editorconfig.editorconfig",
+      "esbenp.prettier-vscode",
+      "ionutvmi.path-autocomplete",
+      "mgmcdermott.vscode-language-babel",
+      "mikestead.dotenv",
+      "ramyaraoa.show-offset",
+      "timonwong.shellcheck",
+      "tyriar.sort-lines"
+    ]
+  }
+}
